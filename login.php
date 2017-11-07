@@ -18,7 +18,7 @@
 			$SQLquery = $db_found -> prepare('SELECT * FROM login WHERE L1 = ?');
 			$SQLquery -> bind_param('s', $username);
 			$SQLquery -> execute();
-			$result = $SQL -> get_result();
+			$result = $SQLquery  -> get_result();
 			
 			if($result -> num_rows == 1) {
 				$db_field = $result -> fetch_assoc();
