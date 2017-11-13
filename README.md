@@ -1,3 +1,3 @@
 # UserLoginScript
-Template user login/authentication script. 
-Uses basic css styling and password hashing. Only runs locally using online mySQL database for now.
+Template user login/authentication PHP script. 
+The script uses basic css styling and password hashing and is now hosted at "dommrid.heliohost.org" (the first page is a placeholder index.html). Don't use a real password if registering a user as the SSL certificate is not properly installed yet.
